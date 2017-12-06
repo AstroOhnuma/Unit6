@@ -6,8 +6,8 @@ dictionary = open('engmix.txt')
 
 wordcount = 0
 for word in dictionary:
-    m = ' '
-    if len(word)>len(m):
-        m = word
-print('The longest word is',m)
-
+    longest = ''
+    for w in word:
+        if len(w)>len(longest):
+            longest = word
+print('The longest word is',longest)
