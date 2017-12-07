@@ -5,7 +5,7 @@
 dictionary = open('engmix.txt')
 
 for word in dictionary:
-    if 'astro' in word:
+    if 'zz' in word:
         print(word.strip())
 
 
