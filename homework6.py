@@ -30,4 +30,5 @@ lines = []
 for line in dictionary:
     lines.append(line.strip()+'!')
 print(lines)
+#4.
     
