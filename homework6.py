@@ -25,10 +25,12 @@ num = int(input('Enter a number: '))
 print(words[num-1])
 '''
 #3.
+'''
 dictionary = open('filedemo.py')
 lines = []
 for line in dictionary:
     lines.append(line.strip()+'!')
 print(lines)
+'''
 #4.
     
