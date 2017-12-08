@@ -28,6 +28,6 @@ print(words[num-1])
 dictionary = open('filedemo.py')
 lines = []
 for line in dictionary:
-    words.append(line+'!')
-print(words)
+    lines.append(line.strip()+'!')
+print(lines)
     
