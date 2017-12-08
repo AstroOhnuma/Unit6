@@ -16,12 +16,18 @@ elif inside == False:
     print(search,'is not in the dictionary.')
 '''
 #2.
+'''
 dictionary = open('engmix.txt')
 words = []
 for line in dictionary:
     words.append(line)
 num = int(input('Enter a number: '))
 print(words[num-1])
-
-        
+'''
+#3.
+dictionary = open('filedemo.py')
+lines = []
+for line in dictionary:
+    words.append(line+'!')
+print(words)
     
