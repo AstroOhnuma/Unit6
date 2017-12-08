@@ -4,12 +4,10 @@
 
 dictionary = open('engmix.txt')
 search = input('Enter a word to search for in the dictionary: ')
-wordcount = 0
+inside = False
 for word in dictionary:
-    if search in word:
+    if search == word.strip():
         inside = True
-    else:
-        inside = False
 if inside == True:
     print(search,'is in the dictionary.')
 elif inside == False:
