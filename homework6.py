@@ -33,4 +33,9 @@ for line in dictionary:
 print(lines)
 '''
 #4.
+dictionary = open('engmix.txt')
+search = input('Enter a letter to search for: ')
+for word in dictionary:
+    if search in word:
+        print(word.strip())
     
