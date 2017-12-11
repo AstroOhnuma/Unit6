@@ -5,6 +5,7 @@
 dictionary = open('engmix.txt')
 
 for word in dictionary:
-    if word != '':
-        if word[0] == 'a' and word[-1] == 'o':
-            print(word.strip())
+    '''
+    if word.strip() != '':'''
+    if word[0] == 'a' and word[-1] == 'o':
+        print(word.strip())
