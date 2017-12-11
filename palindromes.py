@@ -3,7 +3,7 @@
 #palindromes.py - printing out all the palindromes in the dictionary
 
 dictionary = open('engmix.txt')
-
+words = []
 for word in dictionary:
     if w == word:
         print(word.strip())
