@@ -6,6 +6,6 @@ flipped = input('Enter the name of a file: ')
 file = open(flipped)
 word = []
 for line in file:
-    word.append(line)
+    word.append(line.strip())
 word.reverse()
-print(word.strip())
+print(word)
