@@ -8,4 +8,4 @@ word = []
 for line in file:
     word.append(line)
 word.reverse()
-print(word)
+print(word.strip())
