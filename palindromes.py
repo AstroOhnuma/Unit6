@@ -5,6 +5,6 @@
 dictionary = open('engmix.txt')
 
 for word in dictionary:
-    if word.reverse() == word:
+    if w == word:
         print(word.strip())
         
