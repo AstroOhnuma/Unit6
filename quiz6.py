@@ -33,9 +33,12 @@ print(words[randint(1,len(words))])'''
 # Program 4
 dictionary = open('engmix.txt')
 letter = input('Enter a letter: ')
+words = []
 for word in dictionary:
     if letter not in word:
-        print(word.strip())
+        words.append(word)
+print(len(words))
+
 
 
 
