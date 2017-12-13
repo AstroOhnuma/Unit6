@@ -12,8 +12,10 @@ for word in dictionary:
         print(word.strip())'''
 # Program 2
 dictionary = open('engmix.txt')
+words = []
 for word in dictionary:
     word = word.strip()
     if word != '':
         if word[0] == 'r':
-            print(word.strip())
+            words.append(word)
+print(len(words))
