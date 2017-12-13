@@ -26,8 +26,8 @@ dictionary = open('engmix.txt')
 num = int(input('Enter a number: '))
 words = []
 for word in dictionary:
-    if num == len(word):
+    if num+1 == len(word):
         words.append(word)
-print(words[randint(1,len(words))-1])
+print(words[randint(1,len(words))])
 
 
