@@ -21,6 +21,7 @@ for word in dictionary:
             words.append(word)
 print(len(words))'''
 # Program 3
+'''
 from random import randint
 dictionary = open('engmix.txt')
 num = int(input('Enter a number: '))
@@ -28,6 +29,13 @@ words = []
 for word in dictionary:
     if num+1 == len(word):
         words.append(word)
-print(words[randint(1,len(words))])
+print(words[randint(1,len(words))])'''
+# Program 4
+dictionary = open('engmix.txt')
+letter = input('Enter a letter: ')
+for word in dictionary:
+    if letter not in word:
+        print(word.strip())
+
 
 
