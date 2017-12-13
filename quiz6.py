@@ -11,6 +11,7 @@ for word in dictionary:
     if word.count(three) == 3 and word.count(two) == 2:
         print(word.strip())'''
 # Program 2
+'''
 dictionary = open('engmix.txt')
 words = []
 for word in dictionary:
@@ -18,4 +19,15 @@ for word in dictionary:
     if word != '':
         if word[0] == 'r':
             words.append(word)
-print(len(words))
+print(len(words))'''
+# Program 3
+from random import randint
+dictionary = open('engmix.txt')
+num = int(input('Enter a number: '))
+words = []
+for word in dictionary:
+    if num == len(word):
+        words.append(word)
+print(words[randint(1,len(words))-1])
+
+
