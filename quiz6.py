@@ -31,13 +31,23 @@ for word in dictionary:
         words.append(word)
 print(words[randint(1,len(words))])'''
 # Program 4
+'''
 dictionary = open('engmix.txt')
 letter = input('Enter a letter: ')
 words = []
 for word in dictionary:
     if letter not in word:
         words.append(word)
-print(len(words))
+print(len(words))'''
+# Program 5
+dictionary = open('engmix.txt')
+words = []
+for word in dictionary:
+    words.append(word)
+if len(words)%2 == 0:
+    print(words[len(words)/2-1],words[len(words)/2])
+else:
+    print(words[len(words)/2])
 
 
 
